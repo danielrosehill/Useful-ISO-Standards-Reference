@@ -2,7 +2,7 @@
 
 # Useful ISO Standards Reference
 
-A quick reference guide for commonly used ISO standards, particularly useful for standardizing financial datasets and geographic data.
+A quick reference guide for commonly used ISO standards, particularly useful for standardizing financial datasets and geographic data. Compiled for personal use, based on the standards I look up most often (financial sustainability data analysis in which country naming convention can be non-standardised and diffuse between sources!)
 
 Links validated: Sep 03 2025
 
@@ -25,6 +25,8 @@ Geographic territory identification codes.
 - Regional territories for other countries (e.g., Israeli districts/mehozot: IL-D for Southern District)
 - *Note: Application for territories of disputed sovereignty can be inconsistent*
 
+---
+
 ### ISO 4217 - Currency Codes
 **[Official Standard](https://www.iso.org/iso-4217-currency-codes.html)**
 
@@ -32,6 +34,7 @@ World currencies with standardized codes.
 - **Alpha-3 examples**: USD (US Dollar), EUR (Euro), GBP (British Pound), JPY (Japanese Yen), ILS (Israeli Shekel), CAD (Canadian Dollar), AUD (Australian Dollar)
 - **Numeric examples**: 840 (USD), 978 (EUR), 826 (GBP), 392 (JPY), 376 (ILS), 124 (CAD), 036 (AUD)
 
+---
 
 ### ISO 8601 - Date and Time
 **[Official Standard](https://www.iso.org/iso-8601-date-and-time-format.html)**
@@ -39,17 +42,22 @@ World currencies with standardized codes.
 Time zone nomenclature and date/time formatting standards.
 - *Note: Provides formatting standards but not actual time zone data*
 
+---
 
 ### ISO 7000 - Graphical Symbols
 **[Official Standard](https://www.iso.org/obp/ui/#iso:pub:PUB400001:en)**
 
 Basic iconography and graphical symbols for technical documentation.
 
+---
+
 ### ISO 639 - Language Codes
 **[Official Standard](https://www.iso.org/iso-639-language-code)**
 
 World languages represented in two or three letter notation.
 - Useful for multilingual datasets and internationalization
+
+---
 
 
 ### ISO 15924 - Script Codes
@@ -58,11 +66,15 @@ World languages represented in two or three letter notation.
 World writing systems identification codes.
 - Useful for multilingual content and script-specific formatting
 
+---
+
 ### ISO 80000 - Quantities and Units
 **[Official Standard](https://www.iso.org/standard/64973.html)**
 
 International standard for quantities and units in science and technology.
 - Important for sustainability reporting and scientific data standardization
+
+---
 
 ### IEC 60083 - World Plug Types
 **[Official Standard](https://webstore.iec.ch/publication/641)**
@@ -71,32 +83,9 @@ Standard for electrical plug and socket types used worldwide.
 
 ---
 
-## Israel Reference Example
+## Israel ISO Standards
 
-**[Full Israel Reference →](israel-ref.md)**
-
-### ISO 3166 – Country Codes for Israel
-
-| Code Type | Value |
-|-----------|-------|
-| Alpha-2   | IL    |
-| Alpha-3   | ISR   |
-| Numeric   | 376   |
-
-### ISO 4217 – Currency Codes for Israeli New Shekel
-
-| Code Type          | Value |
-|--------------------|-------|
-| Alphabetic (code)  | ILS   |
-| Numeric (code)     | 376   |
-| Minor Units        | 2     |
-| Symbol (non-ISO)   | ₪     |
-
-### NIS Is Not The ISO Currency Code!
-
-NIS is commonly used in casual contexts and is easy to remember ("New Israeli Shekel"). However, it is *not* the ISO standard for the currency, which is ILS (and which stands for 'Israeli Shekel).
-
-Memory aid: IL is the ISO-3166 for Israel so just add an 's' to get the ISO currency name!
+See: `israel-ref.md`
 
 ---
 
